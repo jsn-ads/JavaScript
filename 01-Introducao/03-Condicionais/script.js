@@ -1,4 +1,4 @@
-var hora = 13;
+var hora = 11;
 
 if(hora < 12){
     document.write("Bom dia");
