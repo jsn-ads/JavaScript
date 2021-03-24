@@ -7,7 +7,7 @@ console.log("total: "+nome.length);
 
 console.log(nome.indexOf('Souza'));
 
-console.log(nome.indexOf('N'));
+console.log(nome.indexOf('J'));
 
 console.log(nome.indexOf('Cristina'));
 
