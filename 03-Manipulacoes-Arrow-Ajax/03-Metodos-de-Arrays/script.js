@@ -60,3 +60,42 @@ console.log(listaFinal.sort());
 //inverter a ordem alfabetica
 
 console.log(listaFinal.reverse());
+
+//Funcao mapear array
+
+let numeros = [12, 9,14,8,17];
+
+let result = numeros.map(function(item){
+    return item * 2;
+});
+
+console.log(result);
+
+//Funcao mapear filtros
+
+let result2 = numeros.filter(function(item){
+    if(item < 13){
+        return true;
+    }else{
+        return false;
+    }
+});
+
+console.log(result2);
+
+
+// funcao que verifica se todos item estao de acordo traz true ou false;
+
+result2 = numeros.every(function(item){
+    return (item < 20)? true:false;
+});
+
+console.log(result2);
+
+//funcao que verifica se um item esta de acordo ja traz true 
+
+result2 = numeros.some(function(item){
+    return (item < 9)? true:false;
+});
+
+console.log(result2);
