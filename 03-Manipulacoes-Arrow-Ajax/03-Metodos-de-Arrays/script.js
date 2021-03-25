@@ -99,3 +99,37 @@ result2 = numeros.some(function(item){
 });
 
 console.log(result2);
+
+//funcao para busca item no array
+
+result = numeros.find(function(item){
+    return (item == 14)? true:false;
+});
+
+console.log(result);
+
+let obejto = [
+    {id:1,nome: "Jose Alves", idade: 31},
+    {id:2,nome: "Cristina Monik", idade: 33},
+    {id:3,nome: "Giselle Alves", idade: 40},
+];
+
+let resultado = obejto.find(function(item){
+    return (item.idade < 35)? true:false;
+});
+
+console.log(resultado);
+
+resultado = obejto.filter(function(item){
+    return (item.idade < 35)? true:false;
+});
+
+console.log(resultado);
+
+//funcao para busca a posicao do item no array
+
+result = numeros.findIndex(function(item){
+    return (item == 14)? true:false;
+});
+
+console.log(result);
