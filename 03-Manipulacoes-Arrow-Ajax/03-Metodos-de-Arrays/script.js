@@ -35,3 +35,28 @@ lista.push("PHP");
 
 console.log(lista);
 
+//remover item do array na posicao
+
+lista.splice(1,1);
+
+console.log(lista);
+
+//concatenar array
+
+let lista2 = [
+    "Microsoft",
+    "LINUX",
+    "MEC"
+];
+
+let listaFinal = lista.concat(lista2);
+
+console.log(listaFinal);
+
+//ordernar em ordem alfabetica
+
+console.log(listaFinal.sort());
+
+//inverter a ordem alfabetica
+
+console.log(listaFinal.reverse());
