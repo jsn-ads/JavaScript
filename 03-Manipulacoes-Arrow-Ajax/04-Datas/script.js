@@ -30,3 +30,21 @@ console.log(d.getHours());
 // milesegundos de 1970
 
 console.log(d.getTime());
+
+//adicionar data
+
+d.setFullYear(2022)
+
+console.log(d);
+
+d.setMonth(11);
+
+console.log(d);
+
+d.setDate(d.getDate() + 5);
+
+console.log(d);
+
+d.setHours(d.getHours() + 3);
+
+console.log(d);
