@@ -10,8 +10,18 @@
 
     <button onclick="comecar()">Comecar</button>
     <button onclick="parar()">Parar</button>
-
     <div class="day"></div>
+
+    <br><br>
+
+    <label>SetTimeOut</label>
+
+    <br><br>
+
+    <button onclick="iniciar()">Comecar</button>
+    <button onclick="cancelar()">Parar</button>
+    <div class="texto"></div>
+    
     <script src="script.js" type="text/javascript"></script>
 </body>
 </html>

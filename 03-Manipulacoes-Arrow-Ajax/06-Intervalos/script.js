@@ -23,3 +23,19 @@ function comecar(){
 function parar(){
     clearInterval(timer);
 }
+
+// setTimeout executa apenas uma vez e so executa apos tempo setado
+
+let contagem;
+
+function iniciar(){
+    contagem = setTimeout(function(){
+        document.querySelector('.texto').innerHTML = "Foguete foi Lancado";
+    }, 3000);
+}
+
+function cancelar(){
+    clearTimeout(contagem);
+}
+
+
