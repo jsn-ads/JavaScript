@@ -1,9 +1,3 @@
-
-let estetica = {
-    peso: 1,
-    altura: 2
-}
-
 let pessoa = {
         nome:'José Alves', 
         idade: 90,

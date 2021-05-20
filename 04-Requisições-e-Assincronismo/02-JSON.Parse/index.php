@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <H1>O que e JSON</H1>
+    <H1>JSON.parse</H1>
     <script src="script.js" type="text/javascript"></script>
 </body>
 </html>

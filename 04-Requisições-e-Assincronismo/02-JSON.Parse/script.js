@@ -1,0 +1,1 @@
+let pessoa = JSON.parse('{"nome":"jose","idade":"31"}');
