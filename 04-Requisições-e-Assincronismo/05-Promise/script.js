@@ -1,12 +1,22 @@
-function alertar(){
-    console.log('carregando dados');
+function medirTemperatura(){
+
+    return new Promise(function(resolve,reject){
+
+        console.log("pegando temperatura");
+
+        setTimeout(function(){
+            resolve('40 na sombra');
+        },4000);
+    });
+
 }
 
-let nome = "Jose";
-let sobrenome = "Neto";
+let variavel = medirTemperatura();
 
-console.log(nome);
+variavel.then(function(resultado){
+    console.log("temperatura: "+resultado);
+});
 
-setTimeout(alertar, 2000);
-
-console.log(sobrenome);
+variavel.catch(function(error){
+    console.log("Erro inesperado");
+});
