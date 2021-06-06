@@ -44,3 +44,9 @@ increment--;
 let numero_string = numero.toString();
 
 let numeros = parseInt(numero_string);
+
+// tipoas boleanos 
+
+let vtype = true;
+
+console.log(typeof vtype);
