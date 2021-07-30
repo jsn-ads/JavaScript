@@ -30,7 +30,24 @@
 <span id="saida"></span>
 <span id="chegada"></span>
 
+<br>
+
+<hr>
+
+<ul id="veiculo">
+
+</ul>
+
+<button id="btnCalcularPedagio">calcular pedagio</button>
+
+<div id="valorDoPedagio">
+
+</div>
+
+
+
 <script src="script.js"></script>
 <script src="script2.js"></script>
+<script src="script3.js"></script>
 </body>
 </html>
