@@ -1,5 +1,8 @@
 manipuledElements = ()=>{
     let el = document.querySelector('input');
+    let btn = document.querySelector('#submit');
+
+    console.log(btn);
 
     // // getAttribute = pega atributo
     // let atr = el.getAttribute('placeholder');
@@ -9,7 +12,15 @@ manipuledElements = ()=>{
 
     // console.log("a: "+atr+" / "+"b: "+result);
 
-    el.getAttribute('type') === 'text' ? el.setAttribute('type','password') : el.setAttribute('type','text'); 
+    // el.getAttribute('type') === 'text' ? el.setAttribute('type','password') : el.setAttribute('type','text'); 
+
+    if(el.getAttribute('type') == 'text'){
+        el.setAttribute('type','password');
+        btn.innerText = "Mostrar Senha";
+    }else{
+        el.setAttribute('type','text');
+        btn.innerText = "Ocultar Senha";
+    }
 
 
 }
